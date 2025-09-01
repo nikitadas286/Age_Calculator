@@ -1,5 +1,5 @@
 .gradient-bg {
-            background: linear-gradient(135deg, #7b2ff2 0%, #f357a8 100%);
+            background: linear-gradient(135deg, #d273d0 0%, #cd1373 100%);
         }
         .result-box {
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -24,4 +24,5 @@
             font-family: 'Montserrat', Arial, sans-serif;
             color: #fff;
             text-shadow: 0 2px 8px rgba(123,47,242,0.15);
+
         }
