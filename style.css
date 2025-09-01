@@ -1,0 +1,27 @@
+.gradient-bg {
+            background: linear-gradient(135deg, #7b2ff2 0%, #f357a8 100%);
+        }
+        .result-box {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+        .result-box.show {
+            transform: translateY(-20px);
+        }
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+            cursor: pointer;
+        }
+        .animate-bounce {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .headline {
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #fff;
+            text-shadow: 0 2px 8px rgba(123,47,242,0.15);
+        }
